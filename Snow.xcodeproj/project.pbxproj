@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFD26E123564C3800C91B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD26E023564C3800C91B54 /* AppDelegate.swift */; };
+		CCFD26E323564C3800C91B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD26E223564C3800C91B54 /* ViewController.swift */; };
+		CCFD26E623564C3800C91B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFD26E423564C3800C91B54 /* Main.storyboard */; };
+		CCFD26E823564C3A00C91B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFD26E723564C3A00C91B54 /* Assets.xcassets */; };
+		CCFD26EB23564C3A00C91B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFD26E923564C3A00C91B54 /* LaunchScreen.storyboard */; };
+		CCFD26F623564C3A00C91B54 /* SnowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD26F523564C3A00C91B54 /* SnowUITests.swift */; };
+		CCFD270123564C6300C91B54 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD270023564C6300C91B54 /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCCB32A023817A1B00DE67C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCB329C23817A1A00DE67C1 /* SnowFall.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CCCB329123817A1A00DE67C1;
+			remoteInfo = SnowFall;
+		};
+		CCCB32A223817A3700DE67C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCB329C23817A1A00DE67C1 /* SnowFall.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCB329023817A1A00DE67C1;
+			remoteInfo = SnowFall;
+		};
+		CCFD26F223564C3A00C91B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFD26D523564C3800C91B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFD26DC23564C3800C91B54;
+			remoteInfo = Snow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCCB329C23817A1A00DE67C1 /* SnowFall.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnowFall.xcodeproj; path = SnowFall/SnowFall.xcodeproj; sourceTree = "<group>"; };
+		CCFD26DD23564C3800C91B54 /* Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD26E023564C3800C91B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCFD26E223564C3800C91B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCFD26E523564C3800C91B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCFD26E723564C3A00C91B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCFD26EA23564C3A00C91B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCFD26EC23564C3A00C91B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD26F123564C3A00C91B54 /* SnowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD26F523564C3A00C91B54 /* SnowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowUITests.swift; sourceTree = "<group>"; };
+		CCFD26F723564C3A00C91B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD270023564C6300C91B54 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFD26DA23564C3800C91B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD26EE23564C3A00C91B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCB329D23817A1A00DE67C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCB32A123817A1B00DE67C1 /* SnowFall.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFD26D423564C3800C91B54 = {
+			isa = PBXGroup;
+			children = (
+				CCCB329C23817A1A00DE67C1 /* SnowFall.xcodeproj */,
+				CCFD26DF23564C3800C91B54 /* Snow */,
+				CCFD26F423564C3A00C91B54 /* SnowUITests */,
+				CCFD26DE23564C3800C91B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFD26DE23564C3800C91B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD26DD23564C3800C91B54 /* Snow.app */,
+				CCFD26F123564C3A00C91B54 /* SnowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFD26DF23564C3800C91B54 /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD26E023564C3800C91B54 /* AppDelegate.swift */,
+				CCFD26E223564C3800C91B54 /* ViewController.swift */,
+				CCFD270023564C6300C91B54 /* GradientView.swift */,
+				CCFD26E423564C3800C91B54 /* Main.storyboard */,
+				CCFD26E723564C3A00C91B54 /* Assets.xcassets */,
+				CCFD26E923564C3A00C91B54 /* LaunchScreen.storyboard */,
+				CCFD26EC23564C3A00C91B54 /* Info.plist */,
+			);
+			path = Snow;
+			sourceTree = "<group>";
+		};
+		CCFD26F423564C3A00C91B54 /* SnowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD26F523564C3A00C91B54 /* SnowUITests.swift */,
+				CCFD26F723564C3A00C91B54 /* Info.plist */,
+			);
+			path = SnowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFD26DC23564C3800C91B54 /* Snow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD26FA23564C3A00C91B54 /* Build configuration list for PBXNativeTarget "Snow" */;
+			buildPhases = (
+				CCFD26D923564C3800C91B54 /* Sources */,
+				CCFD26DA23564C3800C91B54 /* Frameworks */,
+				CCFD26DB23564C3800C91B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCB32A323817A3700DE67C1 /* PBXTargetDependency */,
+			);
+			name = Snow;
+			productName = Snow;
+			productReference = CCFD26DD23564C3800C91B54 /* Snow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFD26F023564C3A00C91B54 /* SnowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD26FD23564C3A00C91B54 /* Build configuration list for PBXNativeTarget "SnowUITests" */;
+			buildPhases = (
+				CCFD26ED23564C3A00C91B54 /* Sources */,
+				CCFD26EE23564C3A00C91B54 /* Frameworks */,
+				CCFD26EF23564C3A00C91B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFD26F323564C3A00C91B54 /* PBXTargetDependency */,
+			);
+			name = SnowUITests;
+			productName = SnowUITests;
+			productReference = CCFD26F123564C3A00C91B54 /* SnowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFD26D523564C3800C91B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jackson, Ceri-anne";
+				TargetAttributes = {
+					CCFD26DC23564C3800C91B54 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CCFD26F023564C3A00C91B54 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CCFD26DC23564C3800C91B54;
+					};
+				};
+			};
+			buildConfigurationList = CCFD26D823564C3800C91B54 /* Build configuration list for PBXProject "Snow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFD26D423564C3800C91B54;
+			productRefGroup = CCFD26DE23564C3800C91B54 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CCCB329D23817A1A00DE67C1 /* Products */;
+					ProjectRef = CCCB329C23817A1A00DE67C1 /* SnowFall.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CCFD26DC23564C3800C91B54 /* Snow */,
+				CCFD26F023564C3A00C91B54 /* SnowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CCCB32A123817A1B00DE67C1 /* SnowFall.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnowFall.framework;
+			remoteRef = CCCB32A023817A1B00DE67C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFD26DB23564C3800C91B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD26EB23564C3A00C91B54 /* LaunchScreen.storyboard in Resources */,
+				CCFD26E823564C3A00C91B54 /* Assets.xcassets in Resources */,
+				CCFD26E623564C3800C91B54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD26EF23564C3A00C91B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFD26D923564C3800C91B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD26E323564C3800C91B54 /* ViewController.swift in Sources */,
+				CCFD26E123564C3800C91B54 /* AppDelegate.swift in Sources */,
+				CCFD270123564C6300C91B54 /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD26ED23564C3A00C91B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD26F623564C3A00C91B54 /* SnowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCCB32A323817A3700DE67C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnowFall;
+			targetProxy = CCCB32A223817A3700DE67C1 /* PBXContainerItemProxy */;
+		};
+		CCFD26F323564C3A00C91B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFD26DC23564C3800C91B54 /* Snow */;
+			targetProxy = CCFD26F223564C3A00C91B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCFD26E423564C3800C91B54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFD26E523564C3800C91B54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCFD26E923564C3A00C91B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFD26EA23564C3A00C91B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFD26F823564C3A00C91B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCFD26F923564C3A00C91B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFD26FB23564C3A00C91B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceri-anne.Snow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCFD26FC23564C3A00C91B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceri-anne.Snow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCFD26FE23564C3A00C91B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceri-anne.SnowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snow;
+			};
+			name = Debug;
+		};
+		CCFD26FF23564C3A00C91B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceri-anne.SnowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFD26D823564C3800C91B54 /* Build configuration list for PBXProject "Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD26F823564C3A00C91B54 /* Debug */,
+				CCFD26F923564C3A00C91B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFD26FA23564C3A00C91B54 /* Build configuration list for PBXNativeTarget "Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD26FB23564C3A00C91B54 /* Debug */,
+				CCFD26FC23564C3A00C91B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFD26FD23564C3A00C91B54 /* Build configuration list for PBXNativeTarget "SnowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD26FE23564C3A00C91B54 /* Debug */,
+				CCFD26FF23564C3A00C91B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFD26D523564C3800C91B54 /* Project object */;
+}
